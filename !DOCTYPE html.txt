@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InService RBM Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #09090b;
+        }
+        #app-frame {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        id="app-frame" 
+        src="https://script.google.com/macros/s/AKfycbwODtVseWVhAJsDi2nqS7TtNfv7ILNWbALfbKVsPp0M/dev" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+
+    <script>
+        // Logika tambahan untuk memantau status iframe bisa ditambahkan di sini
+        console.log("Portal InService RBM berhasil dimuat.");
+    </script>
+</body>
+</html>
